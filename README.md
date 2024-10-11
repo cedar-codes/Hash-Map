@@ -16,17 +16,17 @@ Each bucket of the hash map uses a linked list to handle collisions, allowing fo
 
 Key Methods
 
-put(key, value): Inserts a key/value pair.
-resize_table(): Resizes the underlying storage array.
-table_load(): Returns the current load factor of the hash map.
-empty_buckets(): Counts and returns the number of empty buckets.
-get(key): Retrieves the value associated with a given key.
-contains_key(key): Checks if a key exists in the hash map.
-remove(key): Removes the key/value pair from the hash map.
-get_keys_and_values(): Returns a dynamic array of tuples containing all key/value pairs.
-clear(): Clears all entries in the hash map.
-find_mode(): Returns the mode(s) of the stored keys along with their frequency.
-__iter__() and __next__(): Enable iteration over active elements in the hash map.
+- put(key, value): Inserts a key/value pair.
+- resize_table(): Resizes the underlying storage array.
+- table_load(): Returns the current load factor of the hash map.
+- empty_buckets(): Counts and returns the number of empty buckets.
+- get(key): Retrieves the value associated with a given key.
+- contains_key(key): Checks if a key exists in the hash map.
+- remove(key): Removes the key/value pair from the hash map.
+- get_keys_and_values(): Returns a dynamic array of tuples containing all key/value pairs.
+- clear(): Clears all entries in the hash map.
+- find_mode(): Returns the mode(s) of the stored keys along with their frequency.
+- __iter__() and __next__(): Enable iteration over active elements in the hash map.
 
 Efficiency
 All primary methods are optimized to O(1) or O(n) efficiency, ensuring rapid data retrieval and manipulation.
