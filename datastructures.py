@@ -1,9 +1,5 @@
-# Course:      CS261 - Data Structures
-# Assignment:  6
-# Description: Provided data structures necessary to complete the assignment.
-#              Please look through this file carefully to see what methods
-#              are available and how they're implemented.
-#              Don't modify the contents of this file.
+
+# Description: Provided data structures necessary that are imported intomain programs. 
 
 
 # -------------- Used by both HashMaps (SC & OA)  -------------- #
