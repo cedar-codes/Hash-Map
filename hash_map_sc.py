@@ -1,8 +1,5 @@
 # Name: Rachel Hoeferlin
-# OSU Email: hoeferlr@oregonstate.edu
-# Course: CS261 - Data Structures
-# Assignment: 6
-# Due Date: 06/06/24
+# Date: 06/06/24
 # Description: Implementation of a Hash Map utilizing a Dynamic Array for the underlying data storage, and
 # Separate Chaining with Linked Lists to resolve collisions where the index is occupied.
 # Array stores key/value pairs through the use of Linked Lists for each element in the buckets of the Hash Map.
