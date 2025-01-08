@@ -1,8 +1,5 @@
 # Name: Rachel Hoeferlin
-# OSU Email: hoeferlr@oregonstate.edu
-# Course: CS261 - Data Structures
-# Assignment: 6
-# Due Date: 06/06/24
+# Date: 06/06/24
 # Description: Implementation of a Hash Map with Open Addressing, utilizing a Dynamic Array for the underlying data
 # storage, and resolves collisions where the index is occupied with Tombstones and Quadratic Probing.
 # Each index in the array stores key/value pairs through the use of the HashEntry class, which have a boolean
