@@ -30,25 +30,3 @@ Key Methods
 
 Efficiency
 All primary methods are optimized to O(1) or O(n) efficiency, ensuring rapid data retrieval and manipulation.
-
-Installation
-Clone the repository and use the following command to run the project:
-
-bash
-Copy code
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-Usage
-Import the HashMap class and create an instance:
-
-python
-Copy code
-from hashmap import HashMap
-
-hash_map = HashMap()
-hash_map.put('key1', 'value1')
-print(hash_map.get('key1'))  # Output: value1
-
-
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
